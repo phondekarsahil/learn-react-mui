@@ -18,4 +18,20 @@
     ```
     npm install @mui/icons-material
     ```
-* 
+## Usage
+* `Quick start:` Here's a quick example to get you started.
+    ```js
+    import * as React from 'react';
+    import ReactDOM from 'react-dom';
+    import Button from '@mui/material/Button';
+
+    function App() {
+    return <Button variant="contained">Hello World</Button>;
+    }
+
+    ReactDOM.render(<App />, document.querySelector('#app'));
+    ```
+* `Responsive meta tag:` To ensure proper rendering and touch zooming for all devices, add the responsive viewport meta tag to your `<head>` element.
+    ```html
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    ```
